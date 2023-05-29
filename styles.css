@@ -1,0 +1,182 @@
+body{
+	width: 1440px;
+	height: 1024px;
+	background: darkgrey;
+}
+header .caja{
+	padding: 40px 0 0 40px;
+
+}
+#logo{
+	width: 120px;
+	height: 48px;
+}
+main{
+	width: 100%;
+	height: 80%;
+}
+.ingresoTexto{
+	display: inline-block;
+	width: 680px;
+	height:720px;
+	position: absolute;
+	top: 168px;
+	left: 240px;
+}
+.ingresoTexto .caja{
+	display: inline-block;
+
+}
+.ingresoTexto textarea{
+	width: 577px;
+	height: 500px;
+
+	font-style: normal;
+	font-size: 32px;
+	font-family: 'inter';
+	font-weight: 400;
+	color: black;
+	border: none;
+	background: none;
+}
+.ingresoTexto .bcaja{
+	width: 680px;
+	height: 120px;
+	
+	position: absolute;
+	top: 610px;
+
+}
+.aviso{
+	width: 229px;
+	height: 18px;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+	margin-bottom: 16px;
+}
+.exclamacion{
+	content: url('https://api.iconify.design/bi/exclamation-circle-fill.svg');
+	display: inline-block;
+}
+.bcaja .texto{
+
+	font-family: 'inter';
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+	margin-left: 8px;
+}
+.texto{
+	display: inline;
+
+}
+.botones{
+	width: 680px;
+	height: 67px;
+
+}
+.boton1,.boton2{
+	width: 328px;
+	height: 68px;
+	border-radius: 24px;
+	font-family: 'inter';
+	font-style: normal;
+	font-weight: bold;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 19px;
+}
+.boton1{
+	background: linear-gradient(45deg, orange, yellow);
+	color: black;
+	margin-right: 20px;
+}
+.boton2{
+	background: linear-gradient(45deg, yellow, lightgreen);
+	color: black;
+	border:1px solid #0A3871;
+}
+
+.salida{
+	position: absolute;
+	top: 100px;
+	left: 1000px;
+	
+	background: lightgray;
+	border: groove;
+	border-radius: 32px;
+	width: 400px;
+	height: 800px;
+	display: inline-block;
+	position: absolute;
+}
+.salida{
+	display: flex;
+	justify-content: center;
+	border-color: orange;
+}
+.salida .caja{
+	display: inline-block;
+
+}
+#muneco{
+	position: relative;
+	margin: 180px 0 0 0;
+	width: 336px;
+	height: 304px;
+
+}
+.salida h2, .salida p{
+	text-align: center;
+	font-family:'inter';
+	
+
+}
+.salida h2{
+	font-size: 24px;
+	margin: 32px 0 16px 0;
+	font-weight: 700;
+	line-height: 28.8px;
+	color: #343A40;
+}
+.salida p{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #495057;
+}
+.salida #caja0{
+	
+}
+.salida #caja1{
+	display: none;
+}
+.salida #caja1 p{
+	position: relative;
+	top: 32px;
+	width: 336px;
+	height: 781px;
+
+	font-family: Inter;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 36px;
+	letter-spacing: 0em;
+	text-align: left;
+
+}
+.salida #caja1 button{
+	width: 336px;
+	height: 67px;
+	border-radius: 24px;
+	position: absolute;
+	bottom: 32px;
+	
+}
+footer{
+	position: relative;
+
+}
